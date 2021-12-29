@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "origination": {
+    "pec": {
       "url": {
         "protocol": "https",
         "hostname": "localhost"
