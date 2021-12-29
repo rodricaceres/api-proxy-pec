@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "origination": {
+      "url": {
+        "protocol": "https",
+        "hostname": "e2-origination.apinaranja.com"
+      }
+    },
+    "soa-infra": {
+      "url": {
+        "protocol": "https",
+        "hostname": "192.168.222.52"
+      }
+    },
+    "services": {
+      "url": {
+        "hostname": "homoservices.apinaranja.com",
+        "protocol": "https"
+      }
+    },
+    "sacraley_nosis": {
+      "url": {
+        "hostname": "sacrelay.nosis.com-testing",
+        "protocol": "http"
+      }
+    },
+    "sac_nosis": {
+      "url": {
+        "hostname": "sac.nosis.com",
+        "protocol": "http"
+      }
+    }
+  }
+}
