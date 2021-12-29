@@ -1,0 +1,10 @@
+# Customers
+- request:
+    url: ^/api/consultar
+    method: GET
+  response:
+    status: 200
+    file: "Customers/customersResponse.TIT.json"
+    headers:
+      content-type: application/json; charset=utf-8
+      server: cloudflare

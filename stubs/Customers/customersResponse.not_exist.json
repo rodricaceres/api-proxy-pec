@@ -1,0 +1,5 @@
+{
+  "code": "customer_does_not_exist",
+  "message": "Customer doesn't exist.",
+  "severity": "MEDIUM"
+}

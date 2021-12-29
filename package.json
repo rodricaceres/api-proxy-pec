@@ -4,14 +4,18 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "lodash": "^4.17.21",
     "config": "^3.3.6",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.15",
+    "stubby": "^5.1.0",
     "url": "^0.11.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js",
+    "stubs-dev": "stubs start-dev",
+    "stubs": "stubby -w -s 8887 -t 7447 -a 8892 -d stubs/stubs-config.yaml"
   },
   "keywords": [],
   "author": "",

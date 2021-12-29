@@ -3,7 +3,7 @@
     "origination": {
       "url": {
         "protocol": "https",
-        "hostname": "testing-api-pec"
+        "hostname": "localhost"
       }
     }
   }
