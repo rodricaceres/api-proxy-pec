@@ -1,20 +1,19 @@
 const getServiceConfig = require("./getConfig");
 
 module.exports = {
-  dependencies: {
-    origination: {
-      url: {
-        protocol: "https",
-        hostname: "testing"
-      }
-    }
-  },
   services: {
-    customers: getServiceConfig("pec", {
+    "/cloudProfile": getServiceConfig("pec", {
       url: {
-        pathname: "/api/consultar"
-      },
-      timeout: 10000
-    })
+        pathname: "/clientsqualification/cloudProfile"
+      }
+    }),
+    "/imei-check/search/data/imei/350809920173028": getServiceConfig(
+      "imei-check",
+      {
+        url: {
+          pathname: "/api-ocp/imei-check/search/data/imei/350809920173028"
+        }
+      }
+    )
   }
 };

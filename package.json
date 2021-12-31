@@ -4,7 +4,11 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "axios": "^0.24.0",
     "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "https": "^1.0.0",
     "lodash": "^4.17.21",
     "nodemon": "^2.0.15",
     "stubby": "^5.1.0",

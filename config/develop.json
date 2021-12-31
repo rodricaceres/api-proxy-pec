@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "pec": {
+    "client-qualification": {
       "url": {
         "protocol": "https",
         "hostname": "develop-api-pec"

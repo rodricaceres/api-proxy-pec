@@ -1,9 +1,15 @@
 {
   "dependencies": {
-    "pec": {
+    "client-qualification": {
       "url": {
         "protocol": "https",
-        "hostname": "testing-api-pec"
+        "hostname": "client-qualification-portabilidad-ar.apps.osep02.claro.amx"
+      }
+    },
+    "imei-check": {
+      "url": {
+        "protocol": "https",
+        "hostname": "api-imei-check-pec-ar.apps.osep02.claro.amx"
       }
     }
   }

@@ -1,10 +1,17 @@
-process.env.NODE_ENV = "localhost";
+// process.env.NODE_ENV = "localhost";
+process.env.NODE_ENV = "testing";
 
-const config = require("config");
-const url = require("url");
+const express = require("express");
+const app = express();
+const cors = require("cors");
 
-const serviceUrl = config.get("services.customers.url");
-const urlFormat = url.format(serviceUrl);
+// Middlewares
+const findTargetMiddleware = require("./src/application/middlewares/findTarget.middleware");
+const proxyMiddleware = require("./src/application/middlewares/proxy.middleware");
 
-console.log(serviceUrl);
-console.log(urlFormat);
+app.use(express.json());
+app.use(cors());
+
+app.use(findTargetMiddleware, proxyMiddleware);
+
+app.listen(5005);
