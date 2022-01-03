@@ -1,6 +1,6 @@
 # Customers
 - request:
-    url: ^/api/consultar
+    url: ^/imei-check/search/data/imei/350809920173028
     method: GET
   response:
     status: 200

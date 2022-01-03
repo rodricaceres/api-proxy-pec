@@ -4,7 +4,14 @@
       "url": {
         "protocol": "http",
         "hostname": "localhost",
-        "port": 5006
+        "port": 8887
+      }
+    },
+    "imei-check": {
+      "url": {
+        "protocol": "http",
+        "hostname": "localhost",
+        "port": 8887
       }
     }
   }

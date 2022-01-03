@@ -13,9 +13,11 @@ module.exports = async (req, res) => {
     })
   };
 
+  console.log(`${req.method} => ${req.targetUrl}`);
   const response = await axios
     .create(options)
     .request(req.targetUrl, { data: req.body });
 
+  console.log(`${response.status} <=`);
   res.status(response.status).json(response.data);
 };

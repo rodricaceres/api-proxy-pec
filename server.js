@@ -1,6 +1,3 @@
-// process.env.NODE_ENV = "localhost";
-process.env.NODE_ENV = "testing";
-
 const express = require("express");
 const app = express();
 const cors = require("cors");
